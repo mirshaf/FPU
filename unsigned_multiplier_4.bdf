@@ -946,12 +946,6 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(text "zerp[7..0], out[7..0]" (rect 202 792 296 804)(font "Arial" ))
-	(pt 312 808)
-	(pt 192 808)
-	(bus)
-)
-(connector
 	(text "t[15..0]" (rect 482 808 517 820)(font "Arial" ))
 	(pt 472 824)
 	(pt 536 824)
@@ -1049,5 +1043,11 @@ applicable agreement for further details.
 	(text "gnd, a[3..1], zero[2..0], b[3..0], gnd, tmp1[7..0], r0" (rect 858 528 1105 540)(font "Arial" ))
 	(pt 1144 544)
 	(pt 848 544)
+	(bus)
+)
+(connector
+	(text "zero[7..0], out[7..0]" (rect 202 792 296 804)(font "Arial" ))
+	(pt 312 808)
+	(pt 192 808)
 	(bus)
 )
