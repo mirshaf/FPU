@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "MAX V"
 set_global_assignment -name DEVICE auto
-set_global_assignment -name TOP_LEVEL_ENTITY fp_mul
+set_global_assignment -name TOP_LEVEL_ENTITY FPU
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:52:42  JUNE 27, 2024"
 set_global_assignment -name LAST_QUARTUS_VERSION 13.1
@@ -47,6 +47,7 @@ set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (Verilog)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT "VERILOG HDL" -section_id eda_simulation
 set_global_assignment -name EDA_NETLIST_WRITER_OUTPUT_DIR "E:/altera/13.1/uni/CA/FPU/simulation/qsim/" -section_id eda_simulation
 set_global_assignment -name EDA_GENERATE_FUNCTIONAL_NETLIST ON -section_id eda_simulation
+set_global_assignment -name BDF_FILE FPU.bdf
 set_global_assignment -name BDF_FILE unsigned_multiplier_4.bdf
 set_global_assignment -name QIP_FILE zero.qip
 set_global_assignment -name QIP_FILE man_zero_compare.qip
@@ -79,3 +80,5 @@ set_global_assignment -name VECTOR_WAVEFORM_FILE unsigned_multiplier_4.vwf
 set_global_assignment -name VECTOR_WAVEFORM_FILE fp_mul.vwf
 set_global_assignment -name QIP_FILE add_5.qip
 set_global_assignment -name QIP_FILE lpm_add_sub5.qip
+set_global_assignment -name QIP_FILE op_mux.qip
+set_global_assignment -name VECTOR_WAVEFORM_FILE FPU.vwf
