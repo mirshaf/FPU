@@ -1,5 +1,5 @@
 EDA Netlist Writer report for FPU
-Thu Jun 27 19:06:36 2024
+Fri Jun 28 17:18:51 2024
 Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
 
 
@@ -36,9 +36,9 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Jun 27 19:06:36 2024 ;
+; EDA Netlist Writer Status ; Successful - Fri Jun 28 17:18:51 2024 ;
 ; Revision Name             ; FPU                                   ;
-; Top-level Entity Name     ; fp_add_sub                            ;
+; Top-level Entity Name     ; fp_mul                                ;
 ; Family                    ; MAX V                                 ;
 ; Simulation Files Creation ; Successful                            ;
 +---------------------------+---------------------------------------+
@@ -93,13 +93,15 @@ Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: programming logic devices manufactured by Altera and sold by 
     Info: Altera or its authorized distributors.  Please refer to the 
     Info: applicable agreement for further details.
-    Info: Processing started: Thu Jun 27 19:06:36 2024
+    Info: Processing started: Fri Jun 28 17:18:50 2024
 Info: Command: quartus_eda --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory=E:/altera/13.1/uni/CA/FPU/simulation/qsim/ FPU -c FPU
+Warning (125092): Tcl Script File lpm_add_sub5.qip not found
+    Info (125063): set_global_assignment -name QIP_FILE lpm_add_sub5.qip
 Info (204019): Generated file FPU.vo in folder "E:/altera/13.1/uni/CA/FPU/simulation/qsim//" for EDA simulation tool
-Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
+Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4529 megabytes
-    Info: Processing ended: Thu Jun 27 19:06:36 2024
-    Info: Elapsed time: 00:00:00
+    Info: Processing ended: Fri Jun 28 17:18:51 2024
+    Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:00
 
 
